@@ -8,20 +8,18 @@
 ------------
 Flashtext is a simple and fast keyword extract tool in go.
 
-It was inspired by the paper `Medium freeCodeCamp <https://medium.freecodecamp.org/regex-was-taking-5-days-flashtext-does-it-in-15-minutes-55f04411025f>`_
-, here is the python implement:`<https://github.com/vi3k6i5/flashtext>`_
+It was inspired by the paper [Medium](https://medium.freecodecamp.org/regex-was-taking-5-days-flashtext-does-it-in-15-minutes-55f04411025f)
+, here is the python implement:   [Link](https://github.com/vi3k6i5/flashtext>)
 
 
-
+-----------------------------------------------------------------------------------------------------------------------------
 ## Installation
-------------
 
     $ go get github.com/Horaddrim/flashtext
 
 
-
+-----------------------------------------------------------------------------------------------------------------------------
 ## Usage
------
 Extract keywords
 ```
     package main
@@ -48,9 +46,8 @@ Extract keywords
 To Remove keywords
 
     `processor.RemoveKeywords("Brazil")`
-
+-----------------------------------------------------------------------------------------------------------------------------
 ## Test
-----
 
     `$ go test`
 
