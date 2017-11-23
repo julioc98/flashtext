@@ -1,10 +1,10 @@
 
-#flashtext
+# flashtext
 
 
 
 
-##What's it
+## What's it
 ------------
 Flashtext is a simple and fast keyword extract tool in go.
 
@@ -13,7 +13,7 @@ It was inspired by the paper `Medium freeCodeCamp <https://medium.freecodecamp.o
 
 
 
-##Installation
+## Installation
 ------------
 ::
 
@@ -21,7 +21,7 @@ It was inspired by the paper `Medium freeCodeCamp <https://medium.freecodecamp.o
 
 
 
-Usage
+## Usage
 -----
 Extract keywords
 ::
@@ -49,7 +49,7 @@ To Remove keywords
 ::   
     processor.RemoveKeywords("Brazil")
 
-Test
+## Test
 ----
 ::
 
