@@ -17,7 +17,7 @@ Installation
 ------------
 ::
 
-    $ go get github.com/sundy-li/flashtext
+    $ go get github.com/Horaddrim/flashtext
 
 
 
@@ -30,7 +30,7 @@ Extract keywords
     import (
         "fmt"
 
-        "github.com/sundy-li/flashtext"
+        "github.com/Horaddrim/flashtext"
     )
 
     func main() {
@@ -38,16 +38,16 @@ Extract keywords
         // set the caseSensitive to false
         processor.SetConfig(false)
 
-        processor.AddKeyword("Big Apple", "New York")
+        processor.AddKeyword("Sao Paulo", "Brazil")
         processor.AddKeywordAndName("java", "Java")
         // set to find the longest keywords
-        res := processor.Extracts("I like java, big big apple new york", true)
+        res := processor.Extracts("I worked with java, at Sao Paulo, Brazil", true)
         fmt.Printf("res => %#v\n", res)
     }
 
 To Remove keywords
 ::   
-    processor.RemoveKeywords("New York")
+    processor.RemoveKeywords("Brazil")
 
 Test
 ----
