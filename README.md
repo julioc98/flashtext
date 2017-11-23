@@ -15,7 +15,6 @@ It was inspired by the paper `Medium freeCodeCamp <https://medium.freecodecamp.o
 
 ## Installation
 ------------
-::
 
     $ go get github.com/Horaddrim/flashtext
 
@@ -24,7 +23,7 @@ It was inspired by the paper `Medium freeCodeCamp <https://medium.freecodecamp.o
 ## Usage
 -----
 Extract keywords
-::
+```
     package main
 
     import (
@@ -44,15 +43,15 @@ Extract keywords
         res := processor.Extracts("I worked with java, at Sao Paulo, Brazil", true)
         fmt.Printf("res => %#v\n", res)
     }
+```
 
 To Remove keywords
-::   
-    processor.RemoveKeywords("Brazil")
+
+    `processor.RemoveKeywords("Brazil")`
 
 ## Test
 ----
-::
 
-    $ go test
+    `$ go test`
 
 
