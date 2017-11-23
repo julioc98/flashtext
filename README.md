@@ -45,10 +45,10 @@ Extract keywords
 
 To Remove keywords
 
-    `processor.RemoveKeywords("Brazil")`
+    processor.RemoveKeywords("Brazil")
 -----------------------------------------------------------------------------------------------------------------------------
 ## Test
 
-    `$ go test`
+    $ go test
 
 
